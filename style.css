@@ -186,15 +186,27 @@ button:hover{
 
 .item-1{
   background-color: hsl(var(--color-light-red-hsl),.1);
+  h3{
+    color: var(--color-light-red-i1);
+  }
 }
 .item-2{
   background-color: hsl(var(--color-orangey-yellow-hsl),.1);
-}
-.item-4{
-  background-color: hsl(var(--color-cobalt-blue-hsl),.1);
+    h3{
+    color: var(--color-orangey-yellow-i2);
+  }
 }
 .item-3{
   background-color: hsl(var(--color-green-teal-hsl),.1);
+  h3{
+    color: var(--color-green-teal-i3);
+  }
+}
+.item-4{
+  background-color: hsl(var(--color-cobalt-blue-hsl),.1);
+  h3{
+    color: var(--color-cobalt-blue-i4);
+  }
 }
 
 .summ-score {
